@@ -10,3 +10,4 @@ RUN git clone https://aur.archlinux.org/icecast.git
 RUN sed -i '45i \ \ \ \ \ \ \ \ \ \ \ \ \ \ --disable-dependency-tracking \\' icecast/PKGBUILD
 RUN (cd icecast && makepkg -i --noconfirm)
 
+ADD .bashrc /root/.bashrc
