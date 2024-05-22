@@ -17,7 +17,7 @@ Build the image with the following command:
 ##### Run it!
 Create the container. I find the commandline to be much easier.
 
-We need to set the container `--privileged` for running init scripts (the icecast service). Appending /usr/bin/init allows init scripts to run in the container.
+We need to set the container `--privileged` for running init scripts (the icecast service). Appending `/usr/bin/init` allows our icecast init script to run in the container.
 
 ```
 # docker run -ti -d --privileged --name Icecast-Server --rm -p 8080:8080 icecast_server /usr/bin/init
