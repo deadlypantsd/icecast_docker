@@ -1,7 +1,7 @@
 # Icecast Server
 #### _Icecast with Docker!_
 ### About
-This container provides Icecast. 
+This container provides Icecast to consolidate the streams from https://github.com/deadlypantsd/pianobar_docker containers.
 
 ### Why?
 ##### Home Assistant.
